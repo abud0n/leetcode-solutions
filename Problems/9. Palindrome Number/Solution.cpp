@@ -1,0 +1,21 @@
+#include <string>
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        if(x < 10 && 0 < x)
+            return true;
+        else {
+            if(x < 0){
+                return false;
+            }
+            std::string s = to_string(x);
+            for(int i = 0; i < s.length() / 2; i++){
+                if(s[i] != s[s.length()-1-i]){
+                    return false;
+                }
+            }
+
+        }
+        return true;
+    }
+};
