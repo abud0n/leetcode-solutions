@@ -1,2 +1,2 @@
 # leetcode-solutions
-LeetCode algorithm solutions in Python and C++
+LeetCode algorithm solutions in C++ and SQL
